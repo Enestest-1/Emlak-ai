@@ -1,0 +1,11 @@
+{
+  "buildCommand": "npx expo export --platform web",
+  "outputDirectory": ".expo/dist/client",
+  "installCommand": "npm install && npx expo install",
+  "env": {
+    "VITE_API_URL": {
+      "description": "Backend API URL for production",
+      "required": true
+    }
+  }
+}
